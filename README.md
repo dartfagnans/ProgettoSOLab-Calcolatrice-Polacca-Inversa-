@@ -27,11 +27,11 @@ Si consiglia di utilizzare la libreria java.util.Scanner
 
 Ad esempio
 
-* + 3.14 3.67 / 4.56 22.4 ----->> (3.14 + 3.67) * (4.56 / 22.4) = 1.38632142
+* * + 3.14 3.67 / 4.56 22.4 ----->> (3.14 + 3.67) * (4.56 / 22.4) = 1.38632142
 
-* + / 2 - 1 3 5 * 2 4 ------>> ((2 / (1 - 3)) + 5)) * (2 * 4) = 32
+* * + / 2 - 1 3 5 * 2 4 ------>> ((2 / (1 - 3)) + 5)) * (2 * 4) = 32
 
-* / + 2 3 - 4 5 / 3 2 ------>> ((2+3) / (4-5)) * (3/2) = -15/2
+* * / + 2 3 - 4 5 / 3 2 ------>> ((2+3) / (4-5)) * (3/2) = -15/2
 
 Realizzare il programma esplicitando il massimo parallelismo.
 Il programma stampa oltre che al risultato della valutazione, la differenza tra i timestamp prima e dopo la valutazione
