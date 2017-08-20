@@ -14,7 +14,7 @@ per la valutazioni di espressioni aritmetiche.
 L’espressione è memorizzata in un file in forma polacca (notazione prefissa).
 Il formato è il seguente:
 
-<<EXP>>    ::= <<OP>> <<EXP>> <<EXP>> | <<NUMBER>>
+<EXP>>    ::= <<OP>> <<EXP>> <<EXP>> | <<NUMBER>>
 
 <<OP>>     ::= + | * | / | -
 
