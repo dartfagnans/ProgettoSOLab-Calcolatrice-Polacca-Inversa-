@@ -14,11 +14,12 @@ per la valutazioni di espressioni aritmetiche.
 L’espressione è memorizzata in un file in forma polacca (notazione prefissa).
 Il formato è il seguente:
 
-<EXP>>    ::= <<OP>> <<EXP>> <<EXP>> | <<NUMBER>>
+EXP ::= OP EXP EXP | NUMBER
 
-<<OP>>     ::= + | * | / | -
+OP  ::= + | * | / | -
 
-<<NUMBER>> ::= real in java external format
+NUMBER ::= real in java external format
+
 Almeno uno spazio o newline è richiesto come delimitatore dei numeri è operatori.
 
 Si consiglia di utilizzare la libreria java.util.Scanner
